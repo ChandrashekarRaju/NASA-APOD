@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/apodFragment">
+
+    <fragment
+        android:id="@+id/apodFragment"
+        android:name="com.nasa.apod.ui.APODFragment"
+        android:label="@string/apod"
+        tools:layout="@layout/apod_fragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesAPODFragment"
+        android:name="com.nasa.apod.ui.FavoritesAPODFragment"
+        android:label="@string/favorite" />
+</navigation>

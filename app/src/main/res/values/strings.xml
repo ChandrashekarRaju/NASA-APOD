@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NASA APOD</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="apod">APOD</string>
+    <string name="favorite">Favorites</string>
+    <string name="home_activity_no_internet_title">Connection Failed</string>
+    <string name="home_activity_no_internet_description">Could not connect to the network.\nPlease check and try again.</string>
+    <string name="retry">Retry</string>
+</resources>
